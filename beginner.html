@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beginner Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dongle&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="basic.html">기본</a></li>
+            <li><a href="beginner.html">초급</a></li>
+            <li><a href="intermediate.html">중급</a></li>
+            <li><a href="advanced.html">고급</a></li>
+            <li><a href="login.html">로그인</a></li>
+        </ul>
+    </nav>
+
+    <div id="content">
+        <h3>간단하게 기본 기술과 그에 따른 마음가짐</h3>
+        <a href="https://zangsi.net/minesweeper/" style="float: right;">지뢰찾기 게임으로 이동하기</a>
+        <div class="lesson" id="advanced_1">
+            <div class="lesson-content">
+                <img src="images/우클릭.jpg" alt="Advanced Lesson 1" onclick="changeImage('advanced_1')" data-changed-src="images/우클릭(2).jpg">
+            </div>
+            <div class="text-container dongle-regular">
+                <p>내가 지뢰 어디있는지 알겠는데 지뢰를 실수로 클릭하면 어떻게해</p>
+            </div>
+            <img class="changed-image" src="images/우클릭(2).jpg" alt="Advanced Lesson 1 Changed">
+        </div>
+        <div class="lesson" id="advanced_2">
+            <div class="lesson-content">
+                <img src="images/스크롤.JPG" alt="Advanced Lesson 2" onclick="changeImage('advanced_2')" data-changed-src="images/스크롤(2).JPG">
+            </div>
+            <div class="text-container dongle-regular">
+                <p>지뢰 클릭까지는 알겠는데 아닌건 언제까지 하나하나 다 클릭해야해</p>
+            </div>
+            <img class="changed-image" src="images/스크롤(2).JPG" alt="Advanced Lesson 2 Changed">
+        </div>
+        <div class="lesson" id="advanced_3">
+            <div class="lesson-content">
+                <img src="images/2분의1.JPG" alt="Advanced Lesson 3" onclick="changeImage('advanced_3')" data-changed-src="images/2분의1(2).JPG">
+            </div>
+            <div class="text-container dongle-regular">
+                <p>초급이라해도 마지막까지 왔는데 100프로 깰순없다</p>
+            </div>
+            <img class="changed-image" src="images/2분의1(2).JPG" alt="Advanced Lesson 3 Changed">
+        </div>
+    </div>
+
+    <div class="bottom-line"></div> <!-- 아래쪽 검은 선 추가 -->
+
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,217 @@
+/* Resetting default styles */
+body, ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+h1 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-family: "Stylish", serif;
+    font-size: 70px;
+}
+
+h3 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: "Stylish", serif;
+    font-size: 35px;
+}
+
+.container {
+    background-color: #fff;
+    margin: 0 auto; /* 가운데 정렬을 위해 */
+    max-width: 1200px; /* 최대 너비 설정 */
+    padding: px; /* 콘텐츠와 테두리 사이의 간격 */
+}
+
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    line-height: 50px;
+    font-family: "Dongle", sans-serif;
+    font-size: 45px; /* 선의 높이와 맞추기 위해 */
+}
+
+#content {
+    margin-top: 20px;
+    padding: 20px;
+}   
+
+.bottom-line {
+    background-color: #000;
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    
+}
+
+.login-container {
+    width: 400px;
+    padding: 50px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-right: 20px;
+    width: 90%;
+}
+
+.login-form {
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.form-group button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.form-group button:hover {
+    background-color: #0056b3;
+}
+
+.social-login {
+    text-align: center;
+}
+
+.social-login h3 {
+    margin-bottom: 10px;
+}
+
+.social-login ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social-login ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-login ul li:last-child {
+    margin-right: 0;
+}
+
+.social-login ul li a {
+    display: block;
+    padding: 10px 15px;
+    background-color: #eee;
+    color: #333;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+.social-login ul li a:hover {
+    background-color: #ddd;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.signup-btn {
+    padding: 2px 5px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+.signup-btn:hover {
+    background-color: #0056b3;
+}
+
+.signup-btn2 {
+    padding: 2px 5px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+.changed-image {
+    display: none;
+}
+
+.lesson {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.lesson img {
+    max-width: 400px;
+    margin-right: 0px;
+}
+
+.lesson .text-container {
+    margin-left: auto;
+    width: 100%;
+    max-width: calc(100% - 400px);
+}
+
+.dongle-regular {
+    font-family: "Dongle", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 45px;
+}
+
+.stylish-regular {
+    font-family: "Stylish", serif;
+    font-weight: 400;
+    font-style: normal;
+  }

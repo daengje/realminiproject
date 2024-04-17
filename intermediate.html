@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intermediate Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dongle&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="basic.html">기본</a></li>
+            <li><a href="beginner.html">초급</a></li>
+            <li><a href="intermediate.html">중급</a></li>
+            <li><a href="advanced.html">고급</a></li>
+            <li><a href="login.html">로그인</a></li>
+        </ul>
+    </nav>
+
+    <div id="content">
+        <h2></h2>
+        <div class="lesson" id="advanced_1">
+            <div class="lesson-content">
+                <img src="images/중급.jpg" alt="Advanced Lesson 1" onclick="changeImage('advanced_1')" data-changed-src="images/중급(2).jpg">
+            </div>
+            <div class="text-container dongle-regular">
+                <p>2개인지 3개인지 아직은 모르겠고
+                    <br>우선 구석에 1개부터 지뢰를 찍고 스크롤 누르고 확인한다
+                </p>
+            </div>
+            <img class="changed-image" src="images/중급(2).jpg" alt="Advanced Lesson 1 Changed">
+        </div>
+        
+            <img class="changed-image" src="images/1+2(2).JPG" alt="Advanced Lesson 2 Changed">
+        </div>
+        <div class="lesson" id="advanced_3">
+            <div class="lesson-content">
+                <img src="images/큰수.JPG" alt="Advanced Lesson 3" onclick="changeImage('advanced_3')" data-changed-src="images/큰수(2).JPG">
+            </div>
+            <div class="text-container dongle-regular">
+                <p>구석은 다 확인 해봤는데 어디부터 해야할까</p>
+            </div>
+            <img class="changed-image" src="images/큰수(2).JPG" alt="Advanced Lesson 3 Changed">
+        </div>
+        <div class="lesson" id="advanced_2">
+            <div class="lesson-content">
+                <img src="images/1+2.JPG" alt="Advanced Lesson 2" onclick="changeImage('advanced_2')" data-changed-src="images/1+2(2).JPG">
+            </div>
+            <div class="text-container dongle-regular">
+                <p>위에있는거 다 풀고있었는데 더 이상 안보인다
+                    <br>붙어있는 1+2를 생각해보자</p>
+            </div>
+    </div>
+
+    <div class="bottom-line"></div> <!-- 아래쪽 검은 선 추가 -->
+
+    <script src="js/script.js"></script>
+</body>
+</html>

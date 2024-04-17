@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dongle&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="basic.html">기본</a></li>
+            <li><a href="beginner.html">초급</a></li>
+            <li><a href="intermediate.html">중급</a></li>
+            <li><a href="advanced.html">고급</a></li>
+            <li><a href="login.html">로그인</a></li>
+        </ul>
+    </nav>
+
+    <div id="content">
+        <h2></h2>
+        <div class="lesson" id="advanced_1">
+            <div class="lesson-content">
+                <img src="images/2+1+2.jpg" alt="Advanced Lesson 1" onclick="changeImage('advanced_1')" data-changed-src="images/2+1+2(2).jpg">
+            </div>
+            <div class="text-container dongle-regular">
+                <p>2+1+2구조인데 위에 막혀있고 다른게 잘 안보이고 2+1+2구조가 밑에 보인다면 어떻게 해야할까</p>
+            </div>
+            <img class="changed-image" src="images/2+1+2(2).jpg" alt="Advanced Lesson 1 Changed">
+        </div>
+        <div class="lesson" id="advanced_2">
+            <div class="lesson-content">
+                <img src="images/1+2+1.JPG" alt="Advanced Lesson 2" onclick="changeImage('advanced_2')" data-changed-src="images/1+2+1(2).JPG">
+            </div>
+            <div class="text-container dongle-regular">
+                <p>비슷한데 1+2+1 구조인데 보통은 1이 구석에 있기에 그다지 쓸모는 없지만 벽쪽에 붙어있는 경우는 볼수있다. 더 펼칠 수 있을까</p>
+            </div>
+            <img class="changed-image" src="images/1+2+1(2).JPG" alt="Advanced Lesson 2 Changed">
+        </div>
+        <div class="lesson" id="advanced_3">
+            <div class="lesson-content">
+                <img src="images/2더들어가기.JPG" alt="Advanced Lesson 3" onclick="changeImage('advanced_3')" data-changed-src="images/2더들어가기(2).JPG">
+            </div>
+            <div class="text-container dongle-regular">
+                <p>1+2+1의 연장선인데 안쪽으로 더 들어갈 수 없을까</p>
+            </div>
+            <img class="changed-image" src="images/2더들어가기(2).JPG" alt="Advanced Lesson 3 Changed">
+        </div>
+    </div>
+    
+    
+    
+
+    <div class="bottom-line"></div> <!-- 아래쪽 검은 선 추가 -->
+
+    <script src="js/script.js"></script>
+</body>
+</html>

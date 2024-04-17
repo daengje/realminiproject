@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dongle&family=Stylish&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="basic.html">기본</a></li>
+            <li><a href="beginner.html">초급</a></li>
+            <li><a href="intermediate.html">중급</a></li>
+            <li><a href="advanced.html">고급</a></li>
+            <li><a href="login.html">로그인</a></li>
+        </ul>
+    </nav>
+    <h1>
+        지뢰찾기 "자전거" 밀어만 드립니다
+    </h1>
+    <h3>
+        간단하게 지뢰찾기의 메커니즘만 알고 들어가자
+    <br>제가 찍은 사진이고 제가 쓴 거라 좀 초라합니다
+    </h3>
+    <div id="content">
+        <h2></h2>
+        <div class="lesson" id="advanced_1">
+            <div class="lesson-content">
+                <img src="images/근본.jpg" alt="Advanced Lesson 1" onclick="changeImage('advanced_1')" data-changed-src="images/근본(2).jpg">
+            </div>
+            <div class="text-container dongle-regular">
+                <p>기본 지뢰찾기에서 1번 위에는 지뢰갯수 2번 위에는 플레이 한 시간
+                    <br> 가운데 있는 저 숫자 8은 옆에있는 지뢰 갯수
+                </p>
+            </div>
+            <img class="changed-image" src="images/근본(2).jpg" alt="Advanced Lesson 1 Changed">
+        </div>
+        <div class="lesson" id="advanced_3">
+            <div class="lesson-content">
+                <img src="images/지뢰찾기.JPG" alt="Advanced Lesson 3" onclick="changeImage('advanced_3')" data-changed-src="images/지뢰찾기(2).JPG">
+            </div>
+            <div class="text-container dongle-regular">
+                <p>고급 난이도 하려는데 처음 클릭에 죽으면 어쩌지</p>
+            </div>
+            <img class="changed-image" src="images/지뢰찾기(2).JPG" alt="Advanced Lesson 3 Changed">
+        </div>
+    </div>
+
+    <div class="bottom-line"></div> <!-- 아래쪽 검은 선 추가 -->
+
+    <script src="js/script.js"></script>
+</body>
+</html>
