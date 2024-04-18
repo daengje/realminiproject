@@ -17,13 +17,13 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 
-
-
 function changeImage(imageId) {
     var clickedImage = document.getElementById(imageId).querySelector("img");
     var newImagePath = clickedImage.dataset.changedSrc;
     clickedImage.src = newImagePath;
 }
+
+
 
 function scrollToTop() {
     window.scrollTo({
