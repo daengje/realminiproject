@@ -204,7 +204,7 @@ nav ul li a:hover {
 .lesson {
     display: flex;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 .lesson img {
