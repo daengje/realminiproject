@@ -52,6 +52,10 @@ nav ul li a {
     font-size: 45px; /* 선의 높이와 맞추기 위해 */
 }
 
+nav ul li a:hover {
+    color: #b700ff; /* 원하는 색상으로 변경하세요 */
+}
+
 #content {
     margin-top: 20px;
     padding: 20px;
